@@ -5,7 +5,7 @@ pipeline {
 
       environment {
         // Define the path to cmd.exe
-        PATH_TO_CMD = 'C:\Windows\System32\cmd.exe'
+        PATH_TO_CMD = 'C:/Windows/System32/cmd.exe'
     }
     stages {
         stage('Example Stage') {
