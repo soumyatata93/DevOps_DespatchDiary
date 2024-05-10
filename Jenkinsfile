@@ -6,6 +6,7 @@ pipeline {
         stage('Build Frontend') {
             steps {
                 echo 'Build'
+                bat 'npm install'
             }
         }
 
